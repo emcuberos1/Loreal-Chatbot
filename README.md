@@ -1,14 +1,26 @@
-# Project 8: L'Oréal Chatbot
+# L'Oréal Smart Routine & Product Advisor
 
-L’Oréal is exploring the power of AI, and your job is to showcase what's possible. Your task is to build a chatbot that helps users discover and understand L’Oréal’s extensive range of products—makeup, skincare, haircare, and fragrances—as well as provide personalized routines and recommendations.
+A branded conversational advisor for L'Oréal products and beauty routines,
+built on the OpenAI API and scoped to stay on topic.
 
-## 🚀 Launch via GitHub Codespaces
+**[View the live site →](https://emcuberos1.github.io/loreal-chatbot/)**
 
-1. In the GitHub repo, click the **Code** button and select **Open with Codespaces → New codespace**.
-2. Once your codespace is ready, open the `index.html` file via the live preview.
+## Features
 
-## ☁️ Cloudflare Note
+- Remembers the conversation, so follow-up questions have context
+- Declines questions outside beauty and L'Oréal products, and redirects back
+- Chat bubbles distinguishing your messages from the assistant's
+- Message box that grows as you type; Enter sends, Shift+Enter adds a line
+- Responses rendered with proper formatting rather than raw markdown
 
-When deploying through Cloudflare, make sure your API request body (in `script.js`) includes a `messages` array and handle the response by extracting `data.choices[0].message.content`.
+## Built with
 
-Enjoy building your L’Oréal beauty assistant! 💄
+HTML, CSS and vanilla JavaScript, with a Cloudflare Worker sitting between the
+browser and the OpenAI API.
+
+## Typography
+
+L'Oréal's brand pairing — documented in Monotype's brand review as Bauer
+Bodoni with Avant Garde Gothic — is commercially licensed. This site uses
+Bodoni Moda and Poppins, free equivalents that keep the same
+serif-and-geometric-sans relationship.
