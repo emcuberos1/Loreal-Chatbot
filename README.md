@@ -3,7 +3,7 @@
 A branded conversational advisor for L'Oréal products and beauty routines,
 built on the OpenAI API and scoped to stay on topic.
 
-**[View the live site →](https://emcuberos1.github.io/loreal-chatbot/)**
+**[View the live site →](https://emcuberos1.github.io/Loreal-Chatbot/)**
 
 ## Features
 
